@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f8ff; 
+    margin: 0;
+    padding: 20px;
+    
+}
+
+.header {
+    font-size: 20px;
+    background-color: #ffffff; 
+    border: 2px solid #008080; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 80% ;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #008080; 
+    font-size: 2.5em; 
+    margin: 0;
+}
+
+h3 {
+    width: 80%;
+    color: #f98c78; 
+    font-size: 1.5em; 
+}
+
+ol {
+    margin-top: -20px;
+    margin-left: -20px;
+    text-align: left; 
+}
+
+form {
+    font-size: 20px;
+    background-color: #ffffff; 
+    border: 2px solid #008080; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 80% ;
+    margin: 0 auto;
+}
+
+label {
+    display: block; 
+    margin: 15px 0 5px; 
+    color: #333; 
+    font-size: 1.1em; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 97%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 1em; 
+    margin-bottom: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.5); 
+    margin: 10px; 
+}
+
+#course{
+    margin-bottom: 10px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px; 
+}
+
+button {
+    display: block;
+    background-color: #69ff47; 
+    color: black; 
+    border: none; 
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #44ff00;
+}
+.emp{
+    font-weight: bold;
+}
+
+#enrolled{
+    border: none;
+    font-size: 30px;
+}
+
+table{
+    width: 83%;
+    margin: 0 auto;
+    border-collapse: collapse;
+} 
+table, th, td {
+    margin-top: 20px;
+    background-color: #ffffff; 
+    border: 2px solid #008080; 
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+th{
+    background-color: #dcecfa;
+}
